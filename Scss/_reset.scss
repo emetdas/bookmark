@@ -1,0 +1,24 @@
+@import "variable";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none !important;
+}
+body{
+    scroll-behavior: smooth;
+    font-size: 1.125rem;
+    font-family: $body-font;
+}
+.heading{
+    color: $Very-Dark-Blue;
+}
+.peragraph{
+    color: $Grayish-Blue;
+}
+a,
+a:hover,
+a:focus{
+    color: $Very-Dark-Blue;
+}

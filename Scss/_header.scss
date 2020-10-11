@@ -1,0 +1,36 @@
+@import "variable";
+.hearder{
+    height: 34.375rem;
+    display: grid;
+    align-items: center;
+    & a{
+        color: $Soft-Blue;
+        padding: 0.4rem 2rem;
+        border: 0.2rem solid $Soft-Blue;
+        border-radius: 3rem;
+        -webkit-border-radius: 3rem;
+        -moz-border-radius: 3rem;
+        -ms-border-radius: 3rem;
+        -o-border-radius: 3rem;
+}
+}
+
+.hearder-item img{
+    width: 100%;
+    right: 0;
+}
+.hearder-item{
+    overflow: hidden;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: '';
+        left: 40%;
+        bottom: 0;
+        width: 70%;
+        height: 70%;
+        background: $Soft-Blue;
+        border-bottom-left-radius: 7rem;
+        z-index: -1;
+    }
+}

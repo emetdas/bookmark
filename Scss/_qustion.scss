@@ -1,0 +1,32 @@
+.acc-item:nth-child(even){
+    border-top: 0.1rem solid $Grayish-Blue;
+    border-bottom: 0.1rem solid $Grayish-Blue;
+    margin-top: 0.6rem !important;
+    padding: 0.5rem;
+}
+.acc-item{
+    text-align: left !important;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    & .acc-btn {
+        color: $Very-Dark-Blue;
+        &:focus{
+            color: $Soft-Red;
+        }
+        & .fa-angle-down{
+            float: right;
+            right: 0;
+        }
+    }
+}
+.btn-more,
+.btn-more:hover{
+    margin-top: 2rem;
+    color: $white;
+    background: $Soft-Blue;
+    padding: 0.4rem 1.5rem;
+    display: inline-block;
+}

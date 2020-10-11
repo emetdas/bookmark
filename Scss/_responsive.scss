@@ -1,0 +1,65 @@
+@media (max-width:480px){
+    // heading
+    .heading{
+        font-size: 1.4rem;
+    }
+    .hearder{
+        text-align: justify;
+        & a{
+            display: block;
+            margin-bottom: 1rem;
+        }
+    }
+    //peragraph
+    .peragraph{
+        width: 100%;
+        text-align: left;
+    }
+    .hearder-item{
+        overflow: hidden;
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            display: none;
+        }
+    }
+    .nav-tabs{
+        width: 95%;
+        display: block;
+        margin: 0% auto;
+    }
+    .tab-img{
+        display: block;
+        & img{
+            width: 100%;
+            margin-left: 30%;
+        }
+    }
+    .tab-contant{
+        display: block;
+        left: 0;
+        width: 100%;
+    }
+    .acc-item{
+        width: 100% !important;
+    }
+    .footer{
+        text-align: center;
+        padding: 1rem 0;
+        background: $Very-Dark-Blue;
+        color: $white;
+        & ul{
+            padding: 1rem 0;
+        }
+        & ul li{
+            display: block;
+        }
+        & a,
+        a:hover{
+        display: inline-block;
+        color: $white;
+        }
+
+    }
+}

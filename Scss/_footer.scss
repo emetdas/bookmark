@@ -1,0 +1,16 @@
+.footer{
+    padding: 1rem 0;
+    background: $Very-Dark-Blue;
+    color: $white;
+    & .footer-img{
+        width: 10rem;
+    }
+    & ul li{
+        display: inline-block;
+    }
+    & a,
+    a:hover{
+    display: inline-block;
+    color: $white;
+    }
+}

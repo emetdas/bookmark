@@ -1,0 +1,20 @@
+.navbar-toggler .toggler-icon {
+    width: 30px;
+    height: 2px;
+    background-color: rgb(73, 73, 73);
+    margin: 5px 0;
+    display: block;
+    position: relative;
+    transition: all 0.3s ease-out 0s;
+}
+.navbar-toggler.active .toggler-icon:nth-of-type(1) {
+    transform: rotate(45deg);
+    top: 7px;
+}
+.navbar-toggler.active .toggler-icon:nth-of-type(2) {
+    opacity: 0;
+}
+.navbar-toggler.active .toggler-icon:nth-of-type(3) {
+    transform: rotate(135deg);
+    top: -7px;
+}

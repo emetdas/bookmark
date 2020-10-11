@@ -1,0 +1,22 @@
+#newsletter{
+    background: $Soft-Blue;
+    color: $white;
+    & .form-group{
+        & input{
+            outline: none;
+            padding: 0.1rem 0.3rem;
+        }
+        & a{
+            background: $white;
+            padding: 0.4rem 1rem;
+            transition: all 0.5s linear;
+            -webkit-transition: all 0.5s linear;
+            -moz-transition: all 0.5s linear;
+            -ms-transition: all 0.5s linear;
+            -o-transition: all 0.5s linear;
+            &:hover{
+                color: $Soft-Red;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@import "variable";
+.fea-para{
+    width: 45%;
+    margin: auto;
+}
+.nav-tabs{
+    margin-left: 30%;
+   
+}
+.tab-pane{
+    padding-top: 3rem;
+    & .tab-img{
+        float: left;
+        width: 50%;
+    }
+    & .tab-contant{
+        display: grid;
+        padding-top: 5.375rem;
+        padding-left: 3rem;
+        text-align: left;
+        & .tab-a{
+            background: $Soft-Blue;
+            display: inline-block !important;
+            padding: 0.4rem 2rem;
+            margin: 0;
+            width: 9rem;
+            color: $white;
+        }
+    }
+}
